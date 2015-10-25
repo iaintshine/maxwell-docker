@@ -1,4 +1,4 @@
-FROM jacobat/ruby:2.1.5-3 
+FROM ubuntu:14.04 
 
 RUN apt-get update && apt-get install -y openjdk-7-jre curl
 
